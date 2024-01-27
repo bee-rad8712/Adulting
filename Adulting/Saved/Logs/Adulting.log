@@ -2920,3 +2920,1577 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.27-17.23.41:748][719]AssetCheck: New page: Asset Save: multiple assets
 [2024.01.27-17.23.41:748][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
 [2024.01.27-17.23.41:748][719]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/BP_ChildSelector.BP_ChildSelector
+[2024.01.27-17.26.42:397][599]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-17.26.42:455][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.01.27-17.28.33:464][231]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.28.33:703][231]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.28.33:704][231]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterBB17D701489597CA3EFB30B0420C046B.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.28.33:712][231]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 3.00 sec)
+[2024.01.27-17.28.33:714][231]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.28.33:714][231]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.28.34:893][359]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.28.34:899][359]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.28.34:899][359]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.28.34:901][359]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 32 ms)
+[2024.01.27-17.28.34:901][359]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.28.34:902][359]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.28.35:003][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.01.27-17.28.35:004][359]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2024.01.27-17.28.35:004][359]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:28:35 AM)
+[2024.01.27-17.28.35:005][359]LogPlayLevel: Display: Creating online subsystem for client :Context_23
+[2024.01.27-17.28.35:007][359]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.01.27-17.28.35:131][360]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.28.35:135][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004885s)
+[2024.01.27-17.28.35:136][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004937s)
+[2024.01.27-17.28.35:149][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-17.28.35:150][360]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.28.35:150][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.28.35:150][360]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.28.35:151][360]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.28.35:151][360]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.28.35:151][360]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.28.35:151][360]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.28.35:152][360]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.28.35:152][360]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 659 ms)
+[2024.01.27-17.28.35:152][360]LogPlayLevel: PIE: World Init took: (0.002182s)
+[2024.01.27-17.28.35:152][360]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.28.35:152][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.28.35:152][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.28.35:153][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.28.35:153][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.28.35:153][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.28.35:154][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.28.35:230][360]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.28.35:231][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.28.35:231][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.28.35:231][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.28.35:232][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.01.27-17.28.35:232][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.01.27-17.28.35:235][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.01.27-17.28.35:235][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.01.27-17.28.35:235][360]LogInit: FAudioDevice initialized with ID 19.
+[2024.01.27-17.28.35:235][360]LogAudio: Display: Audio Device (ID: 19) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.28.35:235][360]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.27-17.28.35:300][360]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.28.35:300][360]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.28.35:303][360]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.28.35
+[2024.01.27-17.28.35:304][360]LogWorld: Bringing up level for play took: 0.003497
+[2024.01.27-17.28.35:311][360]PIE: Server logged in
+[2024.01.27-17.28.35:314][360]PIE: Play in editor total start time 0.415 seconds.
+[2024.01.27-17.28.35:347][360]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.28.42:316][711]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.28.42:316][711]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.28.42:318][711]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.28.42:323][711]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.28.42:323][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.28.42:323][711]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.28.42:326][711]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.28.42:331][711]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.28.42:350][711]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.27-17.28.42:350][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.27-17.28.42:351][711]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.27-17.28.42:363][711]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.27-17.28.42:390][713]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.01.27-17.28.52:524][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.28.52:752][868]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.28.52:752][868]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter42D4D33F43FA21146F21419E4518B97B.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.28.52:760][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 3.24 sec)
+[2024.01.27-17.28.52:762][868]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.28.52:762][868]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.28.53:928][  2]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.28.53:934][  2]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.28.53:934][  2]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.28.53:936][  2]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 33 ms)
+[2024.01.27-17.28.53:936][  2]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.28.53:937][  2]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.28.54:043][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.27-17.28.54:046][  2]LogPlayLevel: PlayLevel: Blueprint regeneration took 110 ms (1 blueprints)
+[2024.01.27-17.28.54:046][  2]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:28:54 AM)
+[2024.01.27-17.28.54:046][  2]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.01.27-17.28.54:048][  2]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.01.27-17.28.54:171][  3]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.28.54:176][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004489s)
+[2024.01.27-17.28.54:176][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004527s)
+[2024.01.27-17.28.54:190][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.01.27-17.28.54:191][  3]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.28.54:191][  3]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.28.54:192][  3]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.28.54:193][  3]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.28.54:193][  3]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.28.54:193][  3]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.28.54:193][  3]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.28.54:194][  3]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.28.54:194][  3]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 660 ms)
+[2024.01.27-17.28.54:194][  3]LogPlayLevel: PIE: World Init took: (0.002421s)
+[2024.01.27-17.28.54:194][  3]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.28.54:194][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.28.54:194][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.28.54:194][  3]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.28.54:194][  3]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.28.54:194][  3]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.28.54:196][  3]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.28.54:275][  3]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.28.54:275][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.28.54:275][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.28.54:275][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.28.54:276][  3]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.01.27-17.28.54:276][  3]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.01.27-17.28.54:278][  3]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.01.27-17.28.54:278][  3]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.01.27-17.28.54:278][  3]LogInit: FAudioDevice initialized with ID 20.
+[2024.01.27-17.28.54:278][  3]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.28.54:278][  3]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.27-17.28.54:345][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.28.54:345][  3]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.28.54:350][  3]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.28.54
+[2024.01.27-17.28.54:350][  3]LogWorld: Bringing up level for play took: 0.004014
+[2024.01.27-17.28.54:355][  3]PIE: Server logged in
+[2024.01.27-17.28.54:358][  3]PIE: Play in editor total start time 0.424 seconds.
+[2024.01.27-17.28.54:394][  3]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.29.00:356][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.29.00:357][298]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.29.00:357][298]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.29.00:363][298]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.29.00:364][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.29.00:364][298]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.29.00:368][298]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.29.00:373][298]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.29.00:391][298]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.27-17.29.00:391][298]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.27-17.29.00:393][298]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.27-17.29.00:402][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.27-17.29.00:429][300]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.01.27-17.29.03:602][664]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.29.03:837][664]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.29.03:837][664]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter6BA43C2A46E4CC5700820E9067C584E1.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.29.03:844][664]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 3.48 sec)
+[2024.01.27-17.29.03:847][664]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.29.03:847][664]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Total job queries 52, among them cache hits 6 (11.54%)
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 35 distinct outputs (76.09%)
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: RAM used: 935.29 KiB of 819.20 MiB budget. Usage: 0.11%
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Job execution time: average 4.35 s, max 4.46 s
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Job life time (pending + execution): average 4.40 s, max 4.51
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Shader code size: average 34.954 KiB, min 32.73 KiB, max 37.129 KiB
+[2024.01.27-17.29.26:246][776]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.51 s
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Average processing rate: 0.89 jobs/sec
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Total thread time: 1.513 s
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Total thread preprocess time: 0.188 s
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Percentage time preprocessing: 12.40%
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Effective parallelization: 0.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.37% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.15% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.38% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.09% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.01.27-17.29.26:247][776]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.30.04:479][ 93]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.27-17.33.13:262][328]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.27-17.33.13:271][328]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.27-17.33.13:276][328]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.27-17.33.13:293][329]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.27-17.33.22:450][773]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_CameraSpline
+[2024.01.27-17.33.22:457][773]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.27-17.33.23:096][805]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline
+[2024.01.27-17.33.23:097][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.33.23:097][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.33.23:330][805]LogViewport: Scene viewport resized to 738x506, mode Windowed.
+[2024.01.27-17.33.25:689][899]LogViewport: Scene viewport resized to 736x529, mode Windowed.
+[2024.01.27-17.33.25:841][901]LogViewport: Scene viewport resized to 560x371, mode Windowed.
+[2024.01.27-17.33.25:890][902]LogViewport: Scene viewport resized to 1141x867, mode Windowed.
+[2024.01.27-17.33.26:415][960]LogSlate: Window 'BP_CameraSpline' being destroyed
+[2024.01.27-17.33.27:168][ 26]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.33.27:168][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.33.27:173][ 26]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.33.27:173][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.33.37:522][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.33.37:619][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_CameraSpline" FILE="../../../../../Game Dev/Adulting/Adulting/Content/Blueprints/BP_CameraSpline.uasset" SILENT=true
+[2024.01.27-17.33.37:622][ 98]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_CameraSpline
+[2024.01.27-17.33.37:622][ 98]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_CameraSpline99D04B7C4EDDECB591F3268FFC2193FD.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/Blueprints/BP_CameraSpline.uasset'
+[2024.01.27-17.33.37:632][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 3.59 sec)
+[2024.01.27-17.33.37:633][ 98]AssetCheck: New page: Asset Save: BP_CameraSpline
+[2024.01.27-17.33.37:633][ 98]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline
+[2024.01.27-17.35.13:985][535]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.35.14:239][535]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.35.14:239][535]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter6047F2944A0484A161DE9F953E48E881.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.35.14:249][535]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 3.85 sec)
+[2024.01.27-17.35.14:251][535]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.35.14:251][535]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.38.21:793][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.38.22:038][782]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.38.22:038][782]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter09BA3BF4432A3A4D3D604F8102384BA4.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.38.22:051][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 4.11 sec)
+[2024.01.27-17.38.22:053][782]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.38.22:053][782]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.39.27:920][905]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.39.28:166][905]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.39.28:166][905]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterFDB0B3B54FB228D0AFA6C2911344D19C.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.39.28:176][905]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 4.37 sec)
+[2024.01.27-17.39.28:178][905]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.39.28:178][905]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.40.10:360][600]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.40.10:587][600]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.40.10:587][600]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterD6313AFC4FFF8BAC2DDB24846D100431.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.40.10:596][600]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 4.60 sec)
+[2024.01.27-17.40.10:597][600]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.40.10:598][600]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.40.56:573][512]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.40.56:789][512]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.40.56:790][512]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterA6889E664AFAF4CA67AA38A7C06E7AEE.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.40.56:799][512]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 4.83 sec)
+[2024.01.27-17.40.56:801][512]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.40.56:801][512]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.41.33:894][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.41.34:108][261]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.41.34:108][261]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter0C0A68674EAA1B0F4172CA85A5E17E35.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.41.34:117][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 5.05 sec)
+[2024.01.27-17.41.34:120][261]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.41.34:120][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.41.55:530][477]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.42.22:611][934]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2024.01.27-17.42.22:614][934]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.044
+[2024.01.27-17.42.22:614][934]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.01.27-17.42.22:763][934]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.01.27-17.42.22:763][934]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.01.27-17.42.22:847][934]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3
+[2024.01.27-17.42.22:847][934]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter_Auto35F01CD334A68C1517439818CB66E2E8E.tmp' to '../../../../../Game Dev/Adulting/Adulting/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto3.uasset'
+[2024.01.27-17.42.22:848][934]LogFileHelpers: Auto-saving content packages took 0.234
+[2024.01.27-17.42.24:361][ 47]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-17.42.24:392][ 47]LogBlueprint: Error: [AssetLog] D:\Game Dev\Adulting\Adulting\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The property associated with  Spline  could not be found in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C'
+[2024.01.27-17.42.24:429][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.27-17.42.27:782][276]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.42.28:036][276]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.42.28:036][276]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterAB2A40F345FD9AC25B45D7BAF523D783.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.42.28:044][276]LogFileHelpers: InternalPromptForCheckoutAndSave took 262 ms (total: 5.31 sec)
+[2024.01.27-17.42.28:045][276]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.42.28:045][276]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.42.29:913][438]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-17.42.29:932][438]LogBlueprint: Error: [AssetLog] D:\Game Dev\Adulting\Adulting\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] The property associated with  Spline  could not be found in '/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C'
+[2024.01.27-17.42.29:965][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.01.27-17.42.50:078][810]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C
+[2024.01.27-17.42.50:079][810]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C
+[2024.01.27-17.42.50:080][810]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline as actor: BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_0
+[2024.01.27-17.42.50:098][810]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline as actor: BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_0
+[2024.01.27-17.42.51:189][902]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C
+[2024.01.27-17.42.51:189][902]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C
+[2024.01.27-17.42.51:193][902]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline as actor: BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.42.51:194][902]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_CameraSpline.BP_CameraSpline as actor: BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Total job queries 58, among them cache hits 10 (17.24%)
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Tracking 48 distinct input hashes that result in 37 distinct outputs (77.08%)
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: RAM used: 959.25 KiB of 819.20 MiB budget. Usage: 0.11%
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.05 s
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Job execution time: average 4.35 s, max 4.46 s
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Job life time (pending + execution): average 4.40 s, max 4.51
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Shader code size: average 34.954 KiB, min 32.73 KiB, max 37.129 KiB
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.51 s
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.27-17.42.52:045][937]LogShaderCompilers: Display: Average processing rate: 0.89 jobs/sec
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Total thread time: 1.513 s
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Total thread preprocess time: 0.188 s
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Percentage time preprocessing: 12.40%
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Effective parallelization: 0.34 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.37% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.15% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                                 FLumenCardVS - 25.38% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 17.09% of total time (compiled    1 times, average 0.26 sec, max 0.26 sec, min 0.26 sec)
+[2024.01.27-17.42.52:046][937]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.43.15:100][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.43.15:576][  7]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST
+[2024.01.27-17.43.15:576][  7]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/7410YGBZ8GAOC0C9BD20STA26730BB4725F3DF168D4F8AA924818B.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST.uasset'
+[2024.01.27-17.43.15:592][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 492 ms (total: 5.81 sec)
+[2024.01.27-17.43.15:594][  7]AssetCheck: New page: Asset Save: BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.43.15:594][  7]LogContentValidation: Display: Validating /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.43.24:196][675]BlueprintLog: New page: Compile BP_CameraSpline
+[2024.01.27-17.43.24:338][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.27-17.43.25:677][763]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.01.27-17.43.25:734][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.27-17.43.56:406][ 47]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.43.56:413][ 47]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.43.56:413][ 47]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.43.56:415][ 47]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 36 ms)
+[2024.01.27-17.43.56:514][ 47]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.43.56:514][ 47]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:43:56 AM)
+[2024.01.27-17.43.56:515][ 47]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.01.27-17.43.56:517][ 47]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.01.27-17.43.56:529][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.43.56:533][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004436s)
+[2024.01.27-17.43.56:533][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004477s)
+[2024.01.27-17.43.56:548][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.01.27-17.43.56:550][ 48]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.43.56:550][ 48]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.43.56:550][ 48]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.43.56:551][ 48]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.43.56:551][ 48]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.43.56:551][ 48]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.43.56:551][ 48]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.43.56:552][ 48]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.43.56:552][ 48]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 661 ms)
+[2024.01.27-17.43.56:552][ 48]LogPlayLevel: PIE: World Init took: (0.002238s)
+[2024.01.27-17.43.56:552][ 48]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.43.56:552][ 48]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.43.56:552][ 48]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.43.56:552][ 48]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.43.56:552][ 48]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.43.56:552][ 48]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.43.56:554][ 48]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.43.56:641][ 48]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.43.56:642][ 48]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.43.56:642][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.43.56:642][ 48]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.43.56:643][ 48]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.01.27-17.43.56:643][ 48]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.01.27-17.43.56:644][ 48]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.01.27-17.43.56:644][ 48]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.01.27-17.43.56:644][ 48]LogInit: FAudioDevice initialized with ID 21.
+[2024.01.27-17.43.56:644][ 48]LogAudio: Display: Audio Device (ID: 21) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.43.56:644][ 48]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.27-17.43.56:717][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.43.56:717][ 48]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.43.56:720][ 48]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.43.56
+[2024.01.27-17.43.56:720][ 48]LogWorld: Bringing up level for play took: 0.002824
+[2024.01.27-17.43.56:747][ 48]PIE: Server logged in
+[2024.01.27-17.43.56:752][ 48]PIE: Play in editor total start time 0.339 seconds.
+[2024.01.27-17.43.56:783][ 48]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.44.01:208][296]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:227][297]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:243][298]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:260][299]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:278][300]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:294][301]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:310][302]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:328][303]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:343][304]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:360][305]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:376][306]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:393][307]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:408][308]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:426][309]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:443][310]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:460][311]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:475][312]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:491][313]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:507][314]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:522][315]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:538][316]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:556][317]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:572][318]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:590][319]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:606][320]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:625][321]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:641][322]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:659][323]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:674][324]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.01:692][325]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:204][414]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:220][415]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:237][416]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:253][417]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:269][418]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:285][419]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:302][420]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:318][421]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:333][422]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:352][423]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:367][424]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:384][425]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:401][426]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:417][427]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:435][428]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:455][429]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:473][430]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:490][431]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:506][432]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:521][433]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:542][434]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:557][435]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:578][436]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:594][437]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:610][438]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:627][439]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:642][440]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:658][441]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:674][442]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:691][443]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:708][444]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:723][445]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:740][446]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:756][447]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:780][448]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:799][449]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:818][450]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:836][451]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:852][452]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:870][453]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:886][454]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:902][455]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:919][456]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:935][457]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:954][458]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:972][459]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.03:990][460]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:007][461]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:023][462]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:039][463]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:055][464]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:072][465]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:091][466]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:109][467]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:126][468]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:143][469]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:159][470]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:177][471]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:194][472]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:210][473]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:227][474]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:243][475]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:259][476]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:277][477]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:293][478]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:310][479]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:327][480]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:344][481]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:360][482]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:378][483]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:395][484]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:413][485]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:429][486]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:447][487]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:464][488]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:480][489]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:498][490]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:516][491]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:532][492]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:549][493]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:565][494]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:581][495]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:598][496]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:615][497]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:631][498]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:648][499]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:666][500]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:682][501]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:702][502]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:720][503]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:740][504]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:757][505]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:774][506]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:793][507]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:808][508]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:829][509]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:846][510]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:862][511]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:879][512]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:897][513]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:914][514]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:931][515]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:949][516]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:965][517]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.04:983][518]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:000][519]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:016][520]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:034][521]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:050][522]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:066][523]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:082][524]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:098][525]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:116][526]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:132][527]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:148][528]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:165][529]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:181][530]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:197][531]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:214][532]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:231][533]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:247][534]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:264][535]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:279][536]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:297][537]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:314][538]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:330][539]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:346][540]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:365][541]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:382][542]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:399][543]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:416][544]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:433][545]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:449][546]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:467][547]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:486][548]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:503][549]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:521][550]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:537][551]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:558][552]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:574][553]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:592][554]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:608][555]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:625][556]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:642][557]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:659][558]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:675][559]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:692][560]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:708][561]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:725][562]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:741][563]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:760][564]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:777][565]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:794][566]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:810][567]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.05:827][568]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.08:397][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.44.08:398][716]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.44.08:398][716]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.44.08:409][716]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.44.08:410][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.44.08:410][716]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.44.08:414][716]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.44.08:419][716]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.44.08:437][716]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-17.44.08:438][716]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.27-17.44.08:438][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.27-17.44.08:442][716]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.27-17.44.08:451][716]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.27-17.44.08:496][717]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.27-17.44.52:099][415]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.44.52:105][415]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.44.52:105][415]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.44.52:107][415]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 38 ms)
+[2024.01.27-17.44.52:107][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.44.52:107][415]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:44:52 AM)
+[2024.01.27-17.44.52:107][415]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.01.27-17.44.52:112][415]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.01.27-17.44.52:123][416]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.44.52:129][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004878s)
+[2024.01.27-17.44.52:129][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004927s)
+[2024.01.27-17.44.52:146][416]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.01.27-17.44.52:149][416]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.44.52:149][416]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.44.52:149][416]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.44.52:150][416]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.44.52:150][416]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.44.52:150][416]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.44.52:150][416]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.44.52:151][416]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.44.52:151][416]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 662 ms)
+[2024.01.27-17.44.52:151][416]LogPlayLevel: PIE: World Init took: (0.002281s)
+[2024.01.27-17.44.52:151][416]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.44.52:151][416]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.44.52:151][416]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.44.52:152][416]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.44.52:152][416]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.44.52:152][416]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.44.52:153][416]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.44.52:233][416]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.44.52:234][416]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.44.52:234][416]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.44.52:234][416]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.44.52:235][416]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.01.27-17.44.52:235][416]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.01.27-17.44.52:237][416]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.01.27-17.44.52:237][416]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.01.27-17.44.52:237][416]LogInit: FAudioDevice initialized with ID 22.
+[2024.01.27-17.44.52:237][416]LogAudio: Display: Audio Device (ID: 22) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.44.52:237][416]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.27-17.44.52:299][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.44.52:299][416]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.44.52:302][416]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.44.52
+[2024.01.27-17.44.52:303][416]LogWorld: Bringing up level for play took: 0.003053
+[2024.01.27-17.44.52:311][416]PIE: Server logged in
+[2024.01.27-17.44.52:314][416]PIE: Play in editor total start time 0.209 seconds.
+[2024.01.27-17.44.52:335][416]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.44.55:994][607]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:011][608]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:027][609]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:047][610]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:066][611]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:083][612]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:101][613]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:119][614]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:137][615]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:155][616]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:173][617]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:190][618]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:209][619]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:228][620]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:248][621]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:265][622]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:282][623]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:298][624]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:314][625]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:330][626]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:346][627]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:368][628]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:383][629]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:398][630]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:415][631]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:431][632]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:447][633]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:465][634]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:481][635]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:497][636]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:517][637]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:533][638]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:552][639]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:570][640]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:585][641]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:601][642]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:619][643]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:636][644]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:652][645]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:670][646]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:686][647]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:702][648]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:719][649]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:736][650]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:753][651]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:772][652]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:788][653]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:805][654]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:822][655]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:838][656]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:855][657]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:872][658]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:889][659]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:905][660]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:922][661]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:938][662]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:956][663]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:975][664]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.56:997][665]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:031][666]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:047][667]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:063][668]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:082][669]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:099][670]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:115][671]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:132][672]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:148][673]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:165][674]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:181][675]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:198][676]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:215][677]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:232][678]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:248][679]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:265][680]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:284][681]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:299][682]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:318][683]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:336][684]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:352][685]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:369][686]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:385][687]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:405][688]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:422][689]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:438][690]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:454][691]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:472][692]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:489][693]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:506][694]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:523][695]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:537][696]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:555][697]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:572][698]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:592][699]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:608][700]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:627][701]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:648][702]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:664][703]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:680][704]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:696][705]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:713][706]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:732][707]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:751][708]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:769][709]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:787][710]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:803][711]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:818][712]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:836][713]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:853][714]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:869][715]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:886][716]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:902][717]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:920][718]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:936][719]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:953][720]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:970][721]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.57:987][722]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:004][723]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:024][724]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:039][725]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:055][726]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:072][727]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:091][728]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:108][729]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:123][730]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:141][731]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:158][732]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:175][733]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:191][734]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:207][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:223][736]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.58:243][737]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:625][820]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:642][821]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:658][822]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:674][823]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:692][824]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:708][825]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:725][826]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:742][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:763][828]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:780][829]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:799][830]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:815][831]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:834][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:853][833]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:871][834]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:890][835]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:906][836]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:921][837]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:939][838]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:955][839]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:974][840]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.44.59:992][841]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:009][842]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:028][843]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:044][844]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:062][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:079][846]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:095][847]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:112][848]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:130][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:148][850]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:163][851]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:181][852]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:198][853]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:214][854]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:231][855]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:247][856]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:264][857]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:282][858]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:299][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:316][860]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:332][861]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:350][862]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:368][863]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:383][864]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:402][865]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:423][866]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:440][867]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:457][868]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:474][869]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:490][870]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:507][871]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:523][872]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:540][873]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:557][874]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:573][875]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:590][876]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:606][877]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:624][878]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:641][879]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:657][880]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:675][881]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:692][882]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:708][883]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:725][884]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:741][885]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:758][886]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:774][887]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:791][888]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:807][889]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:823][890]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:843][891]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:862][892]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:877][893]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:892][894]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:910][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:926][896]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:943][897]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:959][898]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:976][899]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.00:993][900]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:011][901]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:027][902]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:044][903]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:062][904]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:078][905]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:094][906]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:111][907]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:129][908]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:146][909]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:163][910]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:179][911]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:197][912]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:212][913]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:228][914]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:245][915]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:262][916]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:279][917]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:298][918]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:314][919]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:333][920]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:350][921]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:367][922]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:384][923]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:400][924]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:416][925]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:433][926]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:450][927]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:466][928]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:486][929]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:503][930]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:520][931]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:537][932]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:554][933]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:572][934]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:589][935]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:606][936]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:623][937]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:638][938]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:656][939]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:675][940]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:691][941]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:709][942]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:726][943]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:745][944]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:763][945]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:783][946]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:801][947]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:823][948]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:842][949]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:858][950]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:875][951]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:892][952]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:911][953]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:928][954]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:945][955]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:962][956]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.01:979][957]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:003][958]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:021][959]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:037][960]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:053][961]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:069][962]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:087][963]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:103][964]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:120][965]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:141][966]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:159][967]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:177][968]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:195][969]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:214][970]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:230][971]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:249][972]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:265][973]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:282][974]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:301][975]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:318][976]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:335][977]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:350][978]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:368][979]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:387][980]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:403][981]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:420][982]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:440][983]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.45.02:696][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.45.02:697][997]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.45.02:698][997]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.45.02:702][997]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.45.02:703][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.45.02:703][997]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.45.02:707][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.45.02:713][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.45.02:733][997]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.27-17.45.02:733][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.27-17.45.02:735][997]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.27-17.45.02:745][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.01.27-17.45.02:791][998]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.27-17.46.53:777][589]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.46.53:782][589]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.46.53:783][589]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.46.53:785][589]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 41 ms)
+[2024.01.27-17.46.53:785][589]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.46.53:786][589]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.46.53:901][589]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.01.27-17.46.53:905][589]LogPlayLevel: PlayLevel: Blueprint regeneration took 119 ms (1 blueprints)
+[2024.01.27-17.46.53:905][589]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:46:53 AM)
+[2024.01.27-17.46.53:905][589]LogPlayLevel: Display: Creating online subsystem for client :Context_29
+[2024.01.27-17.46.53:907][589]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.01.27-17.46.54:072][590]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.46.54:077][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005021s)
+[2024.01.27-17.46.54:077][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005061s)
+[2024.01.27-17.46.54:091][590]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.27-17.46.54:093][590]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.46.54:093][590]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.46.54:094][590]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.46.54:094][590]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.46.54:094][590]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.46.54:094][590]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.46.54:094][590]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.46.54:095][590]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.46.54:095][590]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 663 ms)
+[2024.01.27-17.46.54:095][590]LogPlayLevel: PIE: World Init took: (0.002169s)
+[2024.01.27-17.46.54:095][590]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.46.54:095][590]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.46.54:095][590]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.46.54:096][590]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.46.54:096][590]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.46.54:096][590]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.46.54:097][590]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.46.54:176][590]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.46.54:176][590]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.46.54:176][590]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.46.54:176][590]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.46.54:177][590]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.01.27-17.46.54:177][590]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.01.27-17.46.54:179][590]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.01.27-17.46.54:179][590]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.01.27-17.46.54:179][590]LogInit: FAudioDevice initialized with ID 23.
+[2024.01.27-17.46.54:179][590]LogAudio: Display: Audio Device (ID: 23) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.46.54:179][590]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.27-17.46.54:240][590]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.46.54:240][590]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.46.54:243][590]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.46.54
+[2024.01.27-17.46.54:243][590]LogWorld: Bringing up level for play took: 0.003183
+[2024.01.27-17.46.54:252][590]PIE: Server logged in
+[2024.01.27-17.46.54:255][590]PIE: Play in editor total start time 0.473 seconds.
+[2024.01.27-17.46.54:296][590]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.46.58:660][823]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:679][824]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:695][825]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:719][826]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:742][827]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:758][828]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:777][829]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:793][830]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:810][831]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:830][832]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:847][833]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:865][834]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:883][835]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:903][836]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:920][837]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:935][838]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:953][839]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:971][840]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.58:988][841]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:005][842]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:025][843]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:042][844]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:058][845]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:075][846]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:091][847]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:110][848]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:127][849]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:147][850]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:170][851]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:188][852]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:207][853]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:227][854]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:244][855]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:263][856]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:280][857]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:298][858]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:317][859]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:336][860]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:354][861]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:373][862]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:391][863]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:410][864]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:429][865]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:453][866]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:474][867]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:492][868]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:511][869]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:530][870]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:548][871]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:567][872]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:586][873]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:608][874]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:627][875]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:645][876]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:663][877]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:681][878]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:703][879]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:722][880]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:741][881]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:759][882]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:778][883]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:795][884]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:812][885]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:833][886]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:855][887]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:873][888]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:889][889]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:909][890]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:928][891]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:946][892]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:967][893]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.46.59:985][894]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:002][895]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:029][896]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:055][897]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:076][898]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:093][899]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:117][900]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:504][920]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:521][921]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:546][922]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:568][923]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:588][924]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:607][925]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:628][926]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:647][927]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:664][928]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:680][929]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:702][930]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:721][931]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:742][932]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:762][933]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:779][934]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:795][935]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:813][936]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:831][937]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:850][938]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:868][939]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:885][940]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:904][941]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:925][942]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:943][943]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:963][944]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.00:985][945]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:009][946]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:028][947]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:050][948]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:071][949]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:089][950]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:106][951]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:125][952]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:142][953]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:163][954]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:184][955]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:204][956]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:221][957]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:244][958]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:264][959]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:285][960]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:305][961]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:324][962]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:342][963]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:366][964]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:387][965]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:408][966]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:429][967]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:451][968]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:473][969]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:495][970]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:515][971]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:543][972]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:563][973]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:587][974]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:612][975]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:633][976]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:655][977]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:682][978]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:702][979]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:728][980]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:753][981]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:780][982]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:802][983]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:823][984]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:843][985]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:865][986]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:883][987]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:910][988]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:934][989]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:957][990]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:975][991]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.01:997][992]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.02:019][993]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.02:039][994]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.02:057][995]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.47.06:317][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.47.06:317][238]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.47.06:317][238]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.47.06:327][238]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.47.06:327][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.47.06:327][238]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.47.06:333][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.47.06:338][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.47.06:361][238]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.27-17.47.06:361][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.27-17.47.06:365][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.27-17.47.06:375][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.01.27-17.47.06:428][239]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.27-17.47.11:013][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.47.11:221][626]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.47.11:221][626]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterD5E80F59438F247667346CAD698D0A32.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.47.11:230][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 6.02 sec)
+[2024.01.27-17.47.11:231][626]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.47.11:231][626]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.49.04:266][784]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.49.04:503][784]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.49.04:504][784]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter6A4678C9410E91F1D563849178C8ACF6.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.49.04:513][784]LogFileHelpers: InternalPromptForCheckoutAndSave took 248 ms (total: 6.27 sec)
+[2024.01.27-17.49.04:516][784]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.49.04:516][784]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.49.05:056][829]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.49.05:062][829]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.49.05:062][829]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.49.05:064][829]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 43 ms)
+[2024.01.27-17.49.05:064][829]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.49.05:065][829]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.49.05:200][829]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.01.27-17.49.05:203][829]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2024.01.27-17.49.05:203][829]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:49:05 AM)
+[2024.01.27-17.49.05:204][829]LogPlayLevel: Display: Creating online subsystem for client :Context_30
+[2024.01.27-17.49.05:205][829]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.27-17.49.05:372][830]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.49.05:378][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005814s)
+[2024.01.27-17.49.05:378][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005859s)
+[2024.01.27-17.49.05:395][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.27-17.49.05:396][830]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.49.05:396][830]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.49.05:398][830]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.49.05:398][830]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.49.05:398][830]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.49.05:398][830]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.49.05:398][830]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.49.05:399][830]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.49.05:399][830]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 665 ms)
+[2024.01.27-17.49.05:399][830]LogPlayLevel: PIE: World Init took: (0.002220s)
+[2024.01.27-17.49.05:399][830]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.49.05:399][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.49.05:399][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.49.05:400][830]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.49.05:400][830]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.49.05:400][830]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.49.05:402][830]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.49.05:483][830]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.49.05:483][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.49.05:483][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.49.05:483][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.49.05:485][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.01.27-17.49.05:485][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.01.27-17.49.05:486][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.01.27-17.49.05:486][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.01.27-17.49.05:486][830]LogInit: FAudioDevice initialized with ID 24.
+[2024.01.27-17.49.05:486][830]LogAudio: Display: Audio Device (ID: 24) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.49.05:486][830]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.27-17.49.05:579][830]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.49.05:579][830]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.49.05:582][830]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.49.05
+[2024.01.27-17.49.05:582][830]LogWorld: Bringing up level for play took: 0.002980
+[2024.01.27-17.49.05:591][830]PIE: Server logged in
+[2024.01.27-17.49.05:595][830]PIE: Play in editor total start time 0.534 seconds.
+[2024.01.27-17.49.05:645][830]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.49.26:987][914]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.49.26:987][914]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.49.26:988][914]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.49.27:001][914]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.49.27:001][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.49.27:001][914]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.49.27:006][914]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.49.27:010][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.49.27:029][914]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.27-17.49.27:029][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.27-17.49.27:031][914]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.27-17.49.27:042][914]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.01.27-17.49.27:091][915]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.27-17.52.10:583][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.52.10:847][896]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.52.10:847][896]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterB228D0C147CF64E7A498CBAB2A582492.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.52.10:857][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 274 ms (total: 6.54 sec)
+[2024.01.27-17.52.10:858][896]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.52.10:858][896]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.52.12:435][ 85]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.52.12:441][ 85]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.52.12:441][ 85]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.52.12:444][ 85]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 46 ms)
+[2024.01.27-17.52.12:444][ 85]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.52.12:445][ 85]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.52.12:463][ 85]LogBlueprint: Error: [AssetLog] D:\Game Dev\Adulting\Adulting\Content\ThirdPerson\Blueprints\BP_ThirdPersonCharacter.uasset: [Compiler] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2024.01.27-17.52.12:713][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.27-17.52.12:715][ 85]LogPlayLevel: PlayLevel: Blueprint regeneration took 270 ms (1 blueprints)
+[2024.01.27-17.52.12:715][ 85]BlueprintLog: Warning: Blueprint failed to compile:  BP_ThirdPersonCharacter
+[2024.01.27-17.52.15:039][ 85]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2024.01.27-17.52.17:704][351]LogSlate: Window 'Message Log' being destroyed
+[2024.01.27-17.52.17:712][351]LogSlate: Window 'Message Log' being destroyed
+[2024.01.27-17.52.38:861][791]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.52.39:118][791]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-17.52.39:119][791]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacter7967A9794C613F989D34E6A17C26D164.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-17.52.39:127][791]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 6.81 sec)
+[2024.01.27-17.52.39:129][791]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-17.52.39:129][791]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-17.52.40:902][  1]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.52.40:908][  1]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.52.40:908][  1]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.52.40:909][  1]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 47 ms)
+[2024.01.27-17.52.40:910][  1]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-17.52.40:911][  1]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-17.52.41:061][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.01.27-17.52.41:063][  1]LogPlayLevel: PlayLevel: Blueprint regeneration took 153 ms (1 blueprints)
+[2024.01.27-17.52.41:063][  1]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:52:41 AM)
+[2024.01.27-17.52.41:063][  1]LogPlayLevel: Display: Creating online subsystem for client :Context_31
+[2024.01.27-17.52.41:065][  1]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.01.27-17.52.41:216][  2]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.52.41:222][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005014s)
+[2024.01.27-17.52.41:222][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.005067s)
+[2024.01.27-17.52.41:235][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.01.27-17.52.41:236][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.52.41:237][  2]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.52.41:237][  2]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.52.41:237][  2]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.52.41:238][  2]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.52.41:238][  2]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.52.41:238][  2]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.52.41:239][  2]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.52.41:239][  2]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 666 ms)
+[2024.01.27-17.52.41:239][  2]LogPlayLevel: PIE: World Init took: (0.002374s)
+[2024.01.27-17.52.41:239][  2]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.52.41:239][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.52.41:239][  2]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.52.41:239][  2]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.52.41:239][  2]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.52.41:239][  2]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.52.41:241][  2]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.52.41:322][  2]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.52.41:323][  2]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.52.41:323][  2]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.52.41:323][  2]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.52.41:324][  2]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.01.27-17.52.41:324][  2]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.01.27-17.52.41:325][  2]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.01.27-17.52.41:325][  2]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.01.27-17.52.41:325][  2]LogInit: FAudioDevice initialized with ID 25.
+[2024.01.27-17.52.41:325][  2]LogAudio: Display: Audio Device (ID: 25) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.52.41:325][  2]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.27-17.52.41:407][  2]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.52.41:407][  2]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.52.41:411][  2]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.52.41
+[2024.01.27-17.52.41:411][  2]LogWorld: Bringing up level for play took: 0.003196
+[2024.01.27-17.52.41:420][  2]PIE: Server logged in
+[2024.01.27-17.52.41:424][  2]PIE: Play in editor total start time 0.516 seconds.
+[2024.01.27-17.52.41:458][  2]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-17.52.44:768][144]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:787][145]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:809][146]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:828][147]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:850][148]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:870][149]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:892][150]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:911][151]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:932][152]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:951][153]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:973][154]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.44:993][155]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:013][156]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:033][157]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:055][158]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:073][159]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:095][160]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:117][161]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:138][162]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:157][163]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:178][164]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:198][165]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:219][166]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.45:240][167]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.56:899][735]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.56:920][736]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.56:942][737]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.56:963][738]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.56:983][739]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:005][740]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:025][741]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:047][742]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:066][743]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:087][744]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:108][745]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:129][746]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:148][747]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:170][748]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:189][749]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:210][750]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:231][751]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:251][752]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:272][753]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:293][754]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:313][755]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:333][756]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:352][757]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:372][758]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.52.57:393][759]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] You lose!
+[2024.01.27-17.53.05:817][174]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.53.05:817][174]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.53.05:817][174]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-17.53.05:823][174]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.53.05:823][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.53.05:823][174]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.53.05:830][174]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.53.05:835][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.53.05:855][174]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.27-17.53.05:855][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.27-17.53.05:857][174]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.27-17.53.05:866][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.01.27-17.53.05:905][175]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.01.27-17.53.28:895][511]Cmd: TRANSACTION UNDO
+[2024.01.27-17.53.28:895][511]LogEditorTransaction: Undo Move Elements
+[2024.01.27-17.53.39:948][151]LogDerivedDataCache: C:/Users/Tristan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.122 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1038 files in 1717 folders with total size 65 MiB.
+[2024.01.27-17.54.08:853][745]Cmd: TRANSACTION UNDO
+[2024.01.27-17.54.08:853][745]LogEditorTransaction: Undo Move Elements
+[2024.01.27-17.55.23:405][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.27-17.55.23:743][426]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST_Auto4
+[2024.01.27-17.55.23:743][426]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/7410YGBZ8GAOC0C9BD20ST_Auto4780117EB42E9C0BF5B131997AFA3A4CC.tmp' to '../../../../../Game Dev/Adulting/Adulting/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST_Auto4.uasset'
+[2024.01.27-17.55.23:746][426]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.369
+[2024.01.27-17.55.23:746][426]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.369
+[2024.01.27-17.55.58:768][938]Cmd: TRANSACTION UNDO
+[2024.01.27-17.55.58:768][938]LogEditorTransaction: Undo Move Elements
+[2024.01.27-17.57.09:070][ 76]Cmd: POLY SELECT ALL
+[2024.01.27-17.57.48:709][221]Cmd: TRANSACTION UNDO
+[2024.01.27-17.57.48:709][221]LogEditorTransaction: Undo Move Elements
+[2024.01.27-17.59.02:053][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-17.59.02:182][968]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST
+[2024.01.27-17.59.02:182][968]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/7410YGBZ8GAOC0C9BD20STC894B8DE438DAFA43F932CA8AC987178.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/3/W6/7410YGBZ8GAOC0C9BD20ST.uasset'
+[2024.01.27-17.59.02:194][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 6.95 sec)
+[2024.01.27-17.59.02:197][968]AssetCheck: New page: Asset Save: BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.59.02:197][968]LogContentValidation: Display: Validating /Game/Blueprints/BP_CameraSpline.BP_CameraSpline_C /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.BP_CameraSpline_C_UAID_3C2C30CAB6B885D301_2054726383
+[2024.01.27-17.59.02:654][993]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Total job queries 70, among them cache hits 14 (20.00%)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Tracking 53 distinct input hashes that result in 41 distinct outputs (77.36%)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: RAM used: 1.04 MiB of 819.20 MiB budget. Usage: 0.13%
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Shaders Compiled: 5
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Jobs assigned 8, completed 5 (62.50%)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Average time worker was idle: 3932.13 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.08 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Job execution time: average 3.65 s, max 4.46 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Job life time (pending + execution): average 3.70 s, max 4.51
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Shader code size: average 34.863 KiB, min 32.73 KiB, max 37.129 KiB
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 5.43 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Average processing rate: 0.92 jobs/sec
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Total thread time: 1.952 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Total thread preprocess time: 0.234 s
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Percentage time preprocessing: 11.99%
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Effective parallelization: 0.36 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.35 sec, max 0.44 sec, min 0.26 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 35.75% of total time (compiled    2 times, average 0.35 sec, max 0.44 sec, min 0.26 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.31% of total time (compiled    1 times, average 0.47 sec, max 0.47 sec, min 0.47 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.26% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.67% of total time (compiled    1 times, average 0.38 sec, max 0.38 sec, min 0.38 sec)
+[2024.01.27-17.59.02:655][993]LogShaderCompilers: Display: ================================================
+[2024.01.27-17.59.03:740][ 50]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-17.59.03:746][ 50]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-17.59.03:746][ 50]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-17.59.03:748][ 50]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1 ms (total: 49 ms)
+[2024.01.27-17.59.03:748][ 50]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.27-17.59.03:748][ 50]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 1:59:03 AM)
+[2024.01.27-17.59.03:748][ 50]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2024.01.27-17.59.03:750][ 50]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.01.27-17.59.03:767][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.59.03:771][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004689s)
+[2024.01.27-17.59.03:771][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004731s)
+[2024.01.27-17.59.03:793][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.01.27-17.59.03:796][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-17.59.03:796][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-17.59.03:796][ 51]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-17.59.03:797][ 51]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-17.59.03:797][ 51]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-17.59.03:797][ 51]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-17.59.03:797][ 51]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-17.59.03:798][ 51]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-17.59.03:798][ 51]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 667 ms)
+[2024.01.27-17.59.03:798][ 51]LogPlayLevel: PIE: World Init took: (0.002362s)
+[2024.01.27-17.59.03:798][ 51]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-17.59.03:798][ 51]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-17.59.03:798][ 51]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-17.59.03:799][ 51]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-17.59.03:799][ 51]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-17.59.03:799][ 51]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-17.59.03:801][ 51]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-17.59.03:886][ 51]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-17.59.03:886][ 51]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-17.59.03:886][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-17.59.03:886][ 51]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-17.59.03:888][ 51]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.01.27-17.59.03:888][ 51]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.01.27-17.59.03:890][ 51]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.01.27-17.59.03:890][ 51]LogInit: FAudioDevice initialized with ID 26.
+[2024.01.27-17.59.03:890][ 51]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.01.27-17.59.03:890][ 51]LogAudio: Display: Audio Device (ID: 26) registered with world 'ThirdPersonMap'.
+[2024.01.27-17.59.03:890][ 51]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.27-17.59.03:897][ 51]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-17.59.03:899][ 51]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-09.59.03
+[2024.01.27-17.59.03:899][ 51]LogWorld: Bringing up level for play took: 0.001767
+[2024.01.27-17.59.03:901][ 51]PIE: Server logged in
+[2024.01.27-17.59.03:902][ 51]PIE: Play in editor total start time 0.156 seconds.
+[2024.01.27-17.59.19:957][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.59.19:957][802]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-17.59.19:957][802]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.59.19:957][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.59.19:957][802]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-17.59.19:976][802]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-17.59.19:982][802]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-17.59.19:999][802]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.27-17.59.19:999][802]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.27-17.59.19:999][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.27-17.59.20:001][802]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.27-17.59.20:006][802]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-17.59.20:009][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.01.27-17.59.20:093][803]Cmd: SELECT NONE
+[2024.01.27-17.59.20:411][803]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.01.27-17.59.27:173][109]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-17.59.27:173][109]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-18.01.47:231][528]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.27-18.01.47:465][528]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.01.27-18.01.47:465][528]LogSavePackage: Moving '../../../../../Game Dev/Adulting/Adulting/Saved/BP_ThirdPersonCharacterA2859C434672729F250324A84D43E30B.tmp' to '../../../../../Game Dev/Adulting/Adulting/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.01.27-18.01.47:475][528]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 7.20 sec)
+[2024.01.27-18.01.47:477][528]AssetCheck: New page: Asset Save: BP_ThirdPersonCharacter
+[2024.01.27-18.01.47:477][528]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.01.27-18.01.50:440][870]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.27-18.01.50:475][870]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.01.27-18.01.50:475][870]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.01.27-18.01.50:477][870]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 2 ms (total: 51 ms)
+[2024.01.27-18.01.50:477][870]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.27-18.01.50:478][870]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.01.27-18.01.50:638][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.01.27-18.01.50:640][870]LogPlayLevel: PlayLevel: Blueprint regeneration took 162 ms (1 blueprints)
+[2024.01.27-18.01.50:640][870]PIE: New page: PIE session: ThirdPersonMap (Jan 27, 2024, 2:01:50 AM)
+[2024.01.27-18.01.50:640][870]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2024.01.27-18.01.50:641][870]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.01.27-18.01.50:795][871]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-18.01.50:799][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004641s)
+[2024.01.27-18.01.50:799][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004742s)
+[2024.01.27-18.01.50:817][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.01.27-18.01.50:818][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.27-18.01.50:819][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.27-18.01.50:819][871]LogAIModule: Creating AISystem for world ThirdPersonMap
+[2024.01.27-18.01.50:819][871]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.01.27-18.01.50:819][871]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.27-18.01.50:819][871]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.27-18.01.50:820][871]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.01.27-18.01.50:821][871]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.27-18.01.50:821][871]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 668 ms)
+[2024.01.27-18.01.50:821][871]LogPlayLevel: PIE: World Init took: (0.002261s)
+[2024.01.27-18.01.50:821][871]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.27-18.01.50:821][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.27-18.01.50:821][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.27-18.01.50:821][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.27-18.01.50:821][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.27-18.01.50:821][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.27-18.01.50:823][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.27-18.01.50:911][871]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.01.27-18.01.50:911][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.27-18.01.50:911][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.27-18.01.50:911][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.27-18.01.50:911][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.01.27-18.01.50:911][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.01.27-18.01.50:914][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.01.27-18.01.50:914][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.01.27-18.01.50:914][871]LogInit: FAudioDevice initialized with ID 27.
+[2024.01.27-18.01.50:914][871]LogAudio: Display: Audio Device (ID: 27) registered with world 'ThirdPersonMap'.
+[2024.01.27-18.01.50:914][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.27-18.01.51:003][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-18.01.51:004][871]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.01.27-18.01.51:007][871]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2024.01.27-10.01.51
+[2024.01.27-18.01.51:007][871]LogWorld: Bringing up level for play took: 0.003643
+[2024.01.27-18.01.51:017][871]PIE: Server logged in
+[2024.01.27-18.01.51:021][871]PIE: Play in editor total start time 0.546 seconds.
+[2024.01.27-18.01.51:033][871]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.01.27-18.02.10:777][824]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.27-18.02.10:777][824]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.01.27-18.02.10:778][824]LogSlate: Window 'Adulting Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.01.27-18.02.10:782][824]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.01.27-18.02.10:783][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-18.02.10:783][824]LogContentBundle: [ThirdPersonMap(Standalone)] Deleting container.
+[2024.01.27-18.02.10:785][824]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.27-18.02.10:793][824]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.27-18.02.10:817][824]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.27-18.02.10:817][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.27-18.02.10:819][824]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.27-18.02.10:828][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.01.27-18.02.10:849][825]LogPlayLevel: Display: Destroying online subsystem :Context_33
